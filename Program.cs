@@ -5,10 +5,6 @@ namespace csharp2 {
     class Program {
         static void Main (string[] args) {
 
-            var season = Season.Autumn;
-
-           
-
             //------------------------------------------------------------
             // var season = Season.Autumn;
             // switch (season) {
@@ -41,5 +37,19 @@ namespace csharp2 {
             //         Console.WriteLine ("its evening");
             //     }
             // }
+
+            System.Console.WriteLine ("enter a number 1 through 10");
+
+            var userNum = Convert.ToInt32(Console.ReadLine ());
+
+            // Convert.ToInt32 (userNum);
+
+            if (userNum >= 1 && userNum <= 10) {
+                System.Console.WriteLine ("valid");
+            } else {
+                System.Console.WriteLine ("not a valid number");
+            }
+
         }
     }
+}
