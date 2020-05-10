@@ -1,0 +1,12 @@
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.csprojAssemblyReference.cache
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.csproj.CoreCompileInputs.cache
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.AssemblyInfoInputs.cache
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.AssemblyInfo.cs
+/Users/prestoncarroll/Desktop/projects/csharp2/bin/Debug/netcoreapp3.1/csharp2.deps.json
+/Users/prestoncarroll/Desktop/projects/csharp2/bin/Debug/netcoreapp3.1/csharp2.runtimeconfig.json
+/Users/prestoncarroll/Desktop/projects/csharp2/bin/Debug/netcoreapp3.1/csharp2.runtimeconfig.dev.json
+/Users/prestoncarroll/Desktop/projects/csharp2/bin/Debug/netcoreapp3.1/csharp2.dll
+/Users/prestoncarroll/Desktop/projects/csharp2/bin/Debug/netcoreapp3.1/csharp2.pdb
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.dll
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.pdb
+/Users/prestoncarroll/Desktop/projects/csharp2/obj/Debug/netcoreapp3.1/csharp2.genruntimeconfig.cache
