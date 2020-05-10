@@ -38,18 +38,36 @@ namespace csharp2 {
             //     }
             // }
 
-            System.Console.WriteLine ("enter a number 1 through 10");
+            // ----------------------------------EXERCISE
 
-            var userNum = Convert.ToInt32(Console.ReadLine ());
+            // System.Console.WriteLine ("enter a number 1 through 10");
 
-            // Convert.ToInt32 (userNum);
+            // var userNum = Convert.ToInt32(Console.ReadLine ());
 
-            if (userNum >= 1 && userNum <= 10) {
-                System.Console.WriteLine ("valid");
-            } else {
-                System.Console.WriteLine ("not a valid number");
-            }
+            
 
+            // if (userNum >= 1 && userNum <= 10) {
+            //     System.Console.WriteLine ("valid");
+            // } else {
+            //     System.Console.WriteLine ("not a valid number");
+            // }
+            //---------------------------------------EXERCISE
+
+        // System.Console.WriteLine ("enter a number 1 through 10");
+        // var num1 = Convert.ToInt32(Console.ReadLine ());
+        // System.Console.WriteLine ("enter a number 1 through 10");
+        // var num2 = Convert.ToInt32(Console.ReadLine ());
+
+        // if (num1 > num2) {
+        //     System.Console.WriteLine(" the first number is greater");
+        // } else if (num2 > num1){
+        //     System.Console.WriteLine("second number is greater");
+        // } else if(num1 == num2) {
+        //     System.Console.WriteLine("it was a tie");
+        // };
+
+
+            //---------------------------EXERCISE
         }
     }
 }
