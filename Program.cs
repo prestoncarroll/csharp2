@@ -8,7 +8,67 @@ namespace csharp2
         static void Main(string[] args)
         {
 
+            var random = new Random();
+            for (int i = 0; i < 10; i++)
+            {
+                System.Console.WriteLine(random.Next(1, 10));
+                // 10 random numbers 1 through 10
+            }
+            
 
+
+
+
+
+            //-------------------------------------------WHILE LOOPS
+
+            // while (true)
+            // {
+            //     System.Console.Write("type your name:");
+            //     var input = Console.ReadLine();
+
+            //     if (String.IsNullOrWhiteSpace(input))
+            //         break;
+
+            //     System.Console.WriteLine("@Echo: " + input);
+            // }
+
+
+            // while (true)
+            // {
+            //     System.Console.Write("type your name:");
+            //     var input = Console.ReadLine();
+
+            //     if (!String.IsNullOrWhiteSpace(input))
+            //     {
+            //         System.Console.WriteLine("@Echo: " + input);
+            //         continue;
+            //     }
+            //     break;
+
+                
+            // }
+
+
+            // var i = 0;
+            // while (i <= 10)
+            // {
+            //     if (i % 2 == 0)
+            //         System.Console.WriteLine(i);
+
+            //     i++;
+            // }
+
+
+
+            //-------------------------------------------FOR EACH ARRAY
+            // var numbers = new int[] { 1, 2, 3, 4 };
+
+
+            // foreach (var number in numbers)
+            // {
+            //     System.Console.WriteLine(number);
+            // }
 
 
 
