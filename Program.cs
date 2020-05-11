@@ -1,9 +1,50 @@
 ﻿using System;
 
-namespace csharp2 {
+namespace csharp2
+{
 
-    class Program {
-        static void Main (string[] args) {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+
+
+            //--------------------------------FOR, FOR EACH
+            // var name = "john smith";
+
+            // for (int i = 0; i < name.Length; i++)
+            // {
+            //     System.Console.WriteLine(name[i]);
+            // }
+
+            // foreach (var character in name)
+            // {
+            //     System.Console.WriteLine(character);
+            // }
+
+
+
+
+            // -------------------------------itteration
+            // for (int i = 0; i <= 10; i++)
+            // {
+            //     if (i % 2 == 0)
+            //     {
+            //         System.Console.WriteLine(i);
+            //     }
+            // }
+
+            // for (int i = 10; i >= 1; i--)
+            // {
+            //     if (i % 2 == 0){
+            //         System.Console.WriteLine(i);
+            //     }
+            // }
+
+
 
             //------------------------------------------------------------
             // var season = Season.Autumn;
@@ -44,7 +85,7 @@ namespace csharp2 {
 
             // var userNum = Convert.ToInt32(Console.ReadLine ());
 
-            
+
 
             // if (userNum >= 1 && userNum <= 10) {
             //     System.Console.WriteLine ("valid");
@@ -53,18 +94,18 @@ namespace csharp2 {
             // }
             //---------------------------------------EXERCISE
 
-        // System.Console.WriteLine ("enter a number 1 through 10");
-        // var num1 = Convert.ToInt32(Console.ReadLine ());
-        // System.Console.WriteLine ("enter a number 1 through 10");
-        // var num2 = Convert.ToInt32(Console.ReadLine ());
+            // System.Console.WriteLine ("enter a number 1 through 10");
+            // var num1 = Convert.ToInt32(Console.ReadLine ());
+            // System.Console.WriteLine ("enter a number 1 through 10");
+            // var num2 = Convert.ToInt32(Console.ReadLine ());
 
-        // if (num1 > num2) {
-        //     System.Console.WriteLine(" the first number is greater");
-        // } else if (num2 > num1){
-        //     System.Console.WriteLine("second number is greater");
-        // } else if(num1 == num2) {
-        //     System.Console.WriteLine("it was a tie");
-        // };
+            // if (num1 > num2) {
+            //     System.Console.WriteLine(" the first number is greater");
+            // } else if (num2 > num1){
+            //     System.Console.WriteLine("second number is greater");
+            // } else if(num1 == num2) {
+            //     System.Console.WriteLine("it was a tie");
+            // };
 
 
             //---------------------------EXERCISE
