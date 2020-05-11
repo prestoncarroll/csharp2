@@ -8,13 +8,54 @@ namespace csharp2
         static void Main(string[] args)
         {
 
-            var random = new Random();
-            for (int i = 0; i < 10; i++)
-            {
-                System.Console.WriteLine(random.Next(1, 10));
-                // 10 random numbers 1 through 10
-            }
-            
+            var numbers = new[] { 3, 5, 6, 9, 1, 3 };
+            //length
+            System.Console.WriteLine(numbers.Length);
+
+            //indexof
+           var index = Array.IndexOf(numbers, 9);
+        System.Console.WriteLine(index);
+
+
+
+
+
+            //----------------------------RANDOM NUMBERS THROUGH LOOP
+
+            // var random = new Random();
+            // for (int i = 0; i < 10; i++)
+            // {
+            //     System.Console.WriteLine(random.Next(97, 122));
+            //     // 10 random numbers 1 through 10
+            // }
+
+
+            // var random = new Random();
+            // for (int i = 0; i < 5; i++)
+            // {
+            //     System.Console.WriteLine((char)random.Next(97, 122));
+            //     // prints letters
+            // }
+
+            //----------------------------------
+
+
+            // var random = new Random();
+
+
+            // const int passwordLength = 6;
+
+            // var buffer = new char[passwordLength];
+            // for (var i = 0; i < passwordLength; i++)
+            // {
+            //     buffer[i] = ((char)('a' + random.Next(0, 26)));
+
+            //     var password = new string(buffer);
+
+
+            //     System.Console.WriteLine(password);
+            // }
+
 
 
 
@@ -46,7 +87,7 @@ namespace csharp2
             //     }
             //     break;
 
-                
+
             // }
 
 
