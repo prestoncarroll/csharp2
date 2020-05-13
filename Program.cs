@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace csharp2
 {
@@ -8,13 +9,74 @@ namespace csharp2
         static void Main(string[] args)
         {
 
-            var numbers = new[] { 3, 5, 6, 9, 1, 3 };
-            //length
-            System.Console.WriteLine(numbers.Length);
+            var dateTime = new DateTime(2020, 5, 3);
+            var now = DateTime.Now;
+            var today = DateTime.Today;
+            System.Console.WriteLine(now.Hour);
+            System.Console.WriteLine(dateTime);
+            System.Console.WriteLine(now.Minute);
 
-            //indexof
-           var index = Array.IndexOf(numbers, 9);
-        System.Console.WriteLine(index);
+
+            var tomorrow = now.AddDays(1); //tomorrow
+            var yesterday = now.AddDays(-1); //yesterday
+
+
+            System.Console.WriteLine(now.ToLongDateString());
+            System.Console.WriteLine(now.ToString("yyyy-MM-dd"));
+
+            //----------------------------------------------------------
+            // var numbers = new List<int>(){1, 2, 3, 4};
+
+            // numbers.Add(1);
+            // numbers.AddRange(new int[3]{5, 6, 7});
+
+
+            // foreach (var t in numbers)
+            // System.Console.WriteLine(t);
+
+
+            //-----------------------------------------------------------
+            // var numbers = new[] { 3, 5, 6, 9, 1, 3 };
+            // //Length
+            // System.Console.WriteLine(numbers.Length);
+
+            // //--------------------------------------IndexOf()
+            // var index = Array.IndexOf(numbers, 9);
+            // System.Console.WriteLine(index);
+
+            // //-------------------------------------- Clear()
+            // Array.Clear(numbers, 0, 2);
+
+            // System.Console.WriteLine("Effect of Clear()");
+            // foreach (var n in numbers)
+            //     System.Console.WriteLine(n);
+
+
+            // //--------------------------------------COPY()
+            // int[] another = new int[3];
+            // Array.Copy(numbers, another, 3);
+
+            // System.Console.WriteLine("effect of copy()");
+            // foreach (var n in another)
+            // System.Console.WriteLine(n);
+
+
+            // //--------------------------------------Sort()
+
+            // Array.Sort(numbers);
+
+            // System.Console.WriteLine("effect of Sort()");
+            // foreach (var n in numbers)
+            // System.Console.WriteLine(n);
+
+
+            // //--------------------------------Reverse()
+
+            // Array.Reverse(numbers);
+
+            // System.Console.WriteLine("effect of reverse()");
+            // foreach (var n in numbers)
+            // System.Console.WriteLine(n);
 
 
 
